@@ -9,15 +9,26 @@ h2 {
   text-align: center;
   font-size: 200%;
 }
-body {
-    background-color: lightblue;
-}
 
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+.navbar navbar-inverse navbar-fixed-top {
+    position: absolute;
+    right: 20%;
+    margin-top: 50px;
+}
+
+html {
+  background:url("background7.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .desc {
@@ -28,4 +39,30 @@ body {
   color: white;
   font-family: fantasy;
   font-size: 200%;
+}
+ul {
+  margin-top: 60px;
+  padding: 10px;
+  background: rgba(0,0,0,0.5);
+  display:inline-inline-block;
+  background-color: #60391D;
+  font-family: cursive;
+  text-align: center;
+}
+li {
+  display: inline;
+  padding: 0px 100px 0px 100px;
+}
+
+a{
+  color: #F3EEDB;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
